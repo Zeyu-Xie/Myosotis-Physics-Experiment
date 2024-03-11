@@ -30,6 +30,23 @@ fit_y = poly(fit_x)
 # 绘制拟合直线
 plt.plot(fit_x, fit_y, color='red', label=f"M_p={slope:.2f}\\theta+{intercept:.2f}")
 
+# 使用最小二乘法拟合指数函数
+def exponential_func(x, a, b):
+    return a * np.exp(-b * x)
+
+# 使用曲线拟合函数拟合指数函数
+popt, pcov = curve_fit(exponential_func, theta, p)
+
+# 获取拟合参数
+a, b = popt
+
+# 生成拟合曲线的 x 和 y 坐标
+fit_x = np.linspace(0, max(theta) + 1, 100)
+fit_y = exponential_func(fit_x, a, b)
+
+# 绘制拟合曲线
+plt.plot(fit_x, fit_y, color='green', label=f"M_p={a:.2f}*e^(-{b:.2f}*\\theta)")
+
 # 添加标签和标题
 plt.xlabel("\\theta")
 plt.ylabel("M_p")
