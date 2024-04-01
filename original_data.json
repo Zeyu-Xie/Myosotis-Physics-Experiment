@@ -1,0 +1,210 @@
+{
+    "sheet1": {
+        "title": "幅度连续测量",
+        "desctiption": "0 档阻尼下摆盘自由振动，一次启摆连续测 50 个幅度，再次启摆连续测5 个 10T_d",
+        "data": [
+            {
+                "index": 1,
+                "magnitude": 117
+            },
+            {
+                "index": 2,
+                "magnitude": 116
+            },
+            {
+                "index": 3,
+                "magnitude": 115
+            },
+            {
+                "index": 4,
+                "magnitude": 114
+            },
+            {
+                "index": 5,
+                "magnitude": 113
+            },
+            {
+                "index": 6,
+                "magnitude": 112
+            },
+            {
+                "index": 7,
+                "magnitude": 111
+            },
+            {
+                "index": 8,
+                "magnitude": 110
+            },
+            {
+                "index": 9,
+                "magnitude": 109
+            },
+            {
+                "index": 10,
+                "magnitude": 108
+            },
+            {
+                "index": 11,
+                "magnitude": 107
+            },
+            {
+                "index": 12,
+                "magnitude": 106
+            },
+            {
+                "index": 13,
+                "magnitude": 105
+            },
+            {
+                "index": 14,
+                "magnitude": 104
+            },
+            {
+                "index": 15,
+                "magnitude": 103
+            },
+            {
+                "index": 16,
+                "magnitude": 102
+            },
+            {
+                "index": 17,
+                "magnitude": 101
+            },
+            {
+                "index": 18,
+                "magnitude": 100
+            },
+            {
+                "index": 19,
+                "magnitude": 99
+            },
+            {
+                "index": 20,
+                "magnitude": 98
+            },
+            {
+                "index": 21,
+                "magnitude": 97
+            },
+            {
+                "index": 22,
+                "magnitude": 96
+            },
+            {
+                "index": 23,
+                "magnitude": 95
+            },
+            {
+                "index": 24,
+                "magnitude": 94
+            },
+            {
+                "index": 25,
+                "magnitude": 93
+            },
+            {
+                "index": 26,
+                "magnitude": 92
+            },
+            {
+                "index": 27,
+                "magnitude": 91
+            },
+            {
+                "index": 28,
+                "magnitude": 90
+            },
+            {
+                "index": 29,
+                "magnitude": 90
+            },
+            {
+                "index": 30,
+                "magnitude": 88
+            },
+            {
+                "index": 31,
+                "magnitude": 88
+            },
+            {
+                "index": 32,
+                "magnitude": 87
+            },
+            {
+                "index": 33,
+                "magnitude": 86
+            },
+            {
+                "index": 34,
+                "magnitude": 85
+            },
+            {
+                "index": 35,
+                "magnitude": 84
+            },
+            {
+                "index": 36,
+                "magnitude": 83
+            },
+            {
+                "index": 37,
+                "magnitude": 82
+            },
+            {
+                "index": 38,
+                "magnitude": 82
+            },
+            {
+                "index": 39,
+                "magnitude": 81
+            },
+            {
+                "index": 40,
+                "magnitude": 80
+            },
+            {
+                "index": 41,
+                "magnitude": 79
+            },
+            {
+                "index": 42,
+                "magnitude": 78
+            },
+            {
+                "index": 43,
+                "magnitude": 77
+            },
+            {
+                "index": 44,
+                "magnitude": 76
+            },
+            {
+                "index": 45,
+                "magnitude": 76
+            },
+            {
+                "index": 46,
+                "magnitude": 75
+            },
+            {
+                "index": 47,
+                "magnitude": 74
+            },
+            {
+                "index": 48,
+                "magnitude": 73
+            },
+            {
+                "index": 49,
+                "magnitude": 72
+            },
+            {
+                "index": 50,
+                "magnitude": 72
+            }
+        ]
+    },
+    "sheet2": {},
+    "sheet3": {}
+}
