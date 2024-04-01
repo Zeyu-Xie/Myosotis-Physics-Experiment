@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN ["xelatex", "main.tex"]
+RUN chmod +x ./compile.sh
+
+CMD ["sh", "./compile.sh"]
