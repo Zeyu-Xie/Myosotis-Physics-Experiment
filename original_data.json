@@ -469,11 +469,233 @@
         "desctiption": "阻尼档 4 的阻尼振动与受迫振动",
         "sheet1": {
             "title": "阻尼振动（幅度连续测量）",
-            "data": []
+            "data": [
+                {
+                    "index": 1,
+                    "magnitude": 72,
+                    "period": 1.532
+                },
+                {
+                    "index": 2,
+                    "magnitude": 62,
+                    "period": 1.534
+                },
+                {
+                    "index": 3,
+                    "magnitude": 54,
+                    "period": 1.537
+                },
+                {
+                    "index": 4,
+                    "magnitude": 46,
+                    "period": 1.538
+                },
+                {
+                    "index": 5,
+                    "magnitude": 40,
+                    "period": 1.540
+                },
+                {
+                    "index": 6,
+                    "magnitude": 35,
+                    "period": 1.543
+                },
+                {
+                    "index": 7,
+                    "magnitude": 30,
+                    "period": 1.543
+                },
+                {
+                    "index": 8,
+                    "magnitude": 26,
+                    "period": 1.544
+                },
+                {
+                    "index": 9,
+                    "magnitude": 22,
+                    "period": 1.544
+                },
+                {
+                    "index": 10,
+                    "magnitude": 18,
+                    "period": 1.545
+                },
+                {
+                    "index": 11,
+                    "magnitude": 13,
+                    "period": 1.545
+                },
+                {
+                    "index": 12,
+                    "magnitude": 10,
+                    "period": 1.545
+                }
+            ]
         },
         "sheet2": {
             "title": "受迫振动",
-            "data": []
+            "data": [
+                {
+                    "index": 1,
+                    "period": 1.697,
+                    "magnitude": 26,
+                    "difference_1": 10.5,
+                    "difference_2": 15,
+                    "difference_average": 12.75
+                },
+                {
+                    "index": 2,
+                    "period": 1.520,
+                    "magnitude": 90,
+                    "difference_1": 122.5,
+                    "difference_2": 121,
+                    "difference_average": 121.75
+                },
+                {
+                    "index": 3,
+                    "period": 1.625,
+                    "magnitude": 42,
+                    "difference_1": 20,
+                    "difference_2": 23.5,
+                    "difference_average": 21.75
+                },
+                {
+                    "index": 4,
+                    "period": 1.587,
+                    "magnitude": 64,
+                    "difference_1": 33,
+                    "difference_2": 35,
+                    "difference_average": 34
+                },
+                {
+                    "index": 5,
+                    "period": 1.490,
+                    "magnitude": 54,
+                    "difference_1": 146.5,
+                    "difference_2": 149.5,
+                    "difference_average": 148
+                },
+                {
+                    "index": 6,
+                    "period": 1.432,
+                    "magnitude": 28,
+                    "difference_1": 160.5,
+                    "difference_2": 165,
+                    "difference_average": 162.75
+                },
+                {
+                    "index": 7,
+                    "period": 1.384,
+                    "magnitude": 20,
+                    "difference_1": 162.5,
+                    "difference_2": 171.5,
+                    "difference_average": 167
+                },
+                {
+                    "index": 8,
+                    "period": 1.692,
+                    "magnitude": 26,
+                    "difference_1": 10.5,
+                    "difference_2": 15.5,
+                    "difference_average": 13
+                },
+                {
+                    "index": 9,
+                    "period": 1.676,
+                    "magnitude": 29,
+                    "difference_1": 12,
+                    "difference_2": 16.5,
+                    "difference_average": 14.25
+                },
+                {
+                    "index": 10,
+                    "period": 1.663,
+                    "magnitude": 31,
+                    "difference_1": 13.5,
+                    "difference_2": 17.5,
+                    "difference_average": 15.5
+                },
+                {
+                    "index": 11,
+                    "period": 1.654,
+                    "magnitude": 34,
+                    "difference_1": 14.5,
+                    "difference_2": 18.5,
+                    "difference_average": 16.5
+                },
+                {
+                    "index": 12,
+                    "period": 1.611,
+                    "magnitude": 50,
+                    "difference_1": 23,
+                    "difference_2": 26.5,
+                    "difference_average": 24.75
+                },
+                {
+                    "index": 13,
+                    "period": 1.593,
+                    "magnitude": 59,
+                    "difference_1": 31,
+                    "difference_2": 33.5,
+                    "difference_average": 32.25
+                },
+                {
+                    "index": 14,
+                    "period": 1.569,
+                    "magnitude": 78,
+                    "difference_1": 46,
+                    "difference_2": 47.5,
+                    "difference_average": 46.75
+                },
+                {
+                    "index": 15,
+                    "period": 1.560,
+                    "magnitude": 86,
+                    "difference_1": 54,
+                    "difference_2": 54.5,
+                    "difference_average": 54.25
+                },
+                {
+                    "index": 16,
+                    "period": 1.551,
+                    "magnitude": 96,
+                    "difference_1": 65,
+                    "difference_2": 65.5,
+                    "difference_average": 65.25
+                },
+                {
+                    "index": 17,
+                    "period": 1.531,
+                    "magnitude": 106,
+                    "difference_1": 98.5,
+                    "difference_2": 99,
+                    "difference_average": 98.75
+                },
+                {
+                    "index": 18,
+                    "period": 1.508,
+                    "magnitude": 78,
+                    "difference_1": 133,
+                    "difference_2": 135,
+                    "difference_average": 134
+                },
+                {
+                    "index": 19,
+                    "period": 1.485,
+                    "magnitude": 49,
+                    "difference_1": 149,
+                    "difference_2": 152,
+                    "difference_average": 150.5
+                },
+                {
+                    "index": 20,
+                    "period": 1.497,
+                    "magnitude": 61,
+                    "difference_1": 140,
+                    "difference_2": 142,
+                    "difference_average": 141
+                }
+            ]
         }
     }
 }
