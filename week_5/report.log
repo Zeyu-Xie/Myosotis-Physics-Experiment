@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  1 APR 2024 15:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  1 APR 2024 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,6 +1160,11 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 
+LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
+(Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
+11.
+
+
 Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
 (fontspec)                Script "CJK".
 
@@ -1187,21 +1192,45 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- (./report.bbl) [1] (./report.aux)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (./report.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [1] [2] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: DB5B64DA77611FB8BA01CDAB1E240C2F;2337.
+(rerunfilecheck)             Checksum: E4391FE3FAF987FACFBBE3C833FF4DE0;1680.
  ) 
 Here is how much of TeX's memory you used:
- 25401 strings out of 474878
- 509545 string characters out of 5762516
- 1927627 words of memory out of 5000000
- 46872 multiletter control sequences out of 15000+600000
- 595010 words of font info for 78 fonts, out of 8000000 for 9000
+ 25575 strings out of 474878
+ 517562 string characters out of 5762516
+ 1936627 words of memory out of 5000000
+ 47029 multiletter control sequences out of 15000+600000
+ 607070 words of font info for 96 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 101i,5n,145p,1005b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,145p,1005b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./report.pdf (1 page).
+Output written on ./report.pdf (2 pages).

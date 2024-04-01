@@ -3,39 +3,47 @@
 \usepackage{preamble}
 
 
-\title{Backpropagation in Chaotic Neural Networks}
+\title{阻尼振动和受迫振动物理实验}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
+\section{实验目的}
+\subsection{观测阻尼振动，学习测量振动系统基本参数的方法}
+\subsection{研究受迫振动的幅频特性和相频特性，观察共振现象} 
+\subsection{观测不同阻尼对受迫振动的影响}
+\section{实验仪器}
 
-\subsection{Literature review}
+\section{实验原理}
+\subsection{有粘滞阻尼的阻尼振动}
+对于弹簧与摆轮组成的振动系统（如图1所示），设摆轮转动惯量为$J$，粘滞阻尼的阻尼力矩大小定义为角速度$\frac{d\theta}{dt}$与阻尼力矩系数$\gamma$的乘积，弹簧劲度系数为$k$，弹簧的反抗力矩为$-k\theta$。忽略弹簧的等效转动惯量，则转角$\theta$的运动方程为
 
-\subsection{Main results}
+\[
+J\frac{d^2\theta}{dt^2} + \gamma\frac{d\theta}{dt} + k\theta = 0 \quad (1)
+\]
 
-% state the main formula
-% the main numerical results
+记$\omega_0$为无阻尼时自由振动的固有角频率，其值为$\omega_0 = \sqrt{\frac{k}{J}}$，定义阻尼系数$\beta$为$\beta = \frac{\gamma}{2J}$，则式(1)变为
 
-\section{Unstable neural networks}
+\[
+J\frac{d^2\theta}{dt^2} + 2\beta\omega_0\frac{d\theta}{dt} + \omega_0^2\theta = 0 \quad (2)
+\]
 
-\subsection{Lyapunov spectrum}
+对于弱阻尼即$2\beta\omega_0 \ll 1$的情况，阻尼振动运动方程(1)的解为
 
-\subsection{Lyapunov vectors}
+\[
+\theta = \theta_i e^{-\beta t}\cos(\omega t + \phi) \quad (3)
+\]
 
-\subsection{Adjoint Lyapunov spectrum and duality}
+式中$\theta_i$为摆幅，$\phi$为初始相位。由上式可知，阻尼振动角频率为$\omega = \sqrt{\omega_0^2 - \beta^2}$，相应的阻尼振动周期为$T = \frac{2\pi}{\sqrt{\omega_0^2 - \beta^2}}$。
 
-\section{Backpropagation under gradient explosion}
 
-\subsection{Conventional difficulty}
-%give an example and estimate the cost
+\section{实验内容}
+\section{数据处理及结果}
+\section{实验小结}
+\section{原始数据记录}
 
-\subsection{Backpropagation via adjoint shadowing}
-
-\subsection{Kernel differentiation method}
-
-\cite{Abu-Zurayk2013}\cite{Gerritsma2008}\cite{Gerritsma2008}\cite{Baseski2014}
+% \cite{Abu-Zurayk2013}\cite{Gerritsma2008}\cite{Gerritsma2008}\cite{Baseski2014}
 
 \appendix
 
