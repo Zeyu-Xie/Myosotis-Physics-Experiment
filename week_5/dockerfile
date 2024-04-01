@@ -1,0 +1,7 @@
+FROM acanxie/xelatex:1.0.0
+
+WORKDIR /app
+
+COPY . /app
+
+RUN ["xelatex", "main.tex"]
