@@ -232,8 +232,26 @@
             ]
         }
     },
-    "exp2": {},
-    "exp3": {},
-    "sheet2": {},
-    "sheet3": {}
+    "exp2": {
+        "desctiption": "阻尼档 2 的阻尼振动与受迫振动",
+        "sheet1": {
+            "title": "阻尼振动（幅度连续测量）",
+            "data": []
+        },
+        "sheet2": {
+            "title": "受迫振动",
+            "data": []
+        }
+    },
+    "exp3": {
+        "desctiption": "阻尼档 4 的阻尼振动与受迫振动",
+        "sheet1": {
+            "title": "阻尼振动（幅度连续测量）",
+            "data": []
+        },
+        "sheet2": {
+            "title": "受迫振动",
+            "data": []
+        }
+    }
 }
