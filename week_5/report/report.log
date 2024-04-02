@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 13:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1419,11 +1419,13 @@ File: img/C_1.png Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
+
+LaTeX Warning: Reference `sec:2' on page 11 undefined on input line 352.
+
 File: img/C_2.png Graphic file (type bmp)
 <img/C_2.png>
 File: img/C_3.png Graphic file (type bmp)
 <img/C_3.png>
-
 [11]
 File: img/original_data_page_1.jpg Graphic file (type bmp)
 <img/original_data_page_1.jpg>
@@ -1457,14 +1459,17 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 0AFB1A52658DA6E75DABFEC2FEA9A9F8;3364.
  ) 
 Here is how much of TeX's memory you used:
- 27200 strings out of 474878
- 549660 string characters out of 5762516
+ 27201 strings out of 474878
+ 549667 string characters out of 5762516
  1941627 words of memory out of 5000000
- 48618 multiletter control sequences out of 15000+600000
+ 48619 multiletter control sequences out of 15000+600000
  623129 words of font info for 105 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
  101i,13n,145p,1005b,1799s stack positions out of 10000i,1000n,20000p,200000b,200000s

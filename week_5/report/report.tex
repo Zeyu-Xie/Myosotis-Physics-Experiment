@@ -326,7 +326,7 @@ td=1.5408333333333335
 
 \subsection{第三组实验}
 
-第三组实验的数据输出如下
+第三组实验的 python 程序运行部分输出如下
 
 \begin{lstlisting}[label={lst:3}, caption={第三组实验数据处理结果}]
 y = a + bx
@@ -338,7 +338,7 @@ td=1.5374999999999999
 \tau=3.931239659169442
 \end{lstlisting}
 
-选择 4 档阻尼下摆盘自由振动，一次起摆连续测 12 个幅度，绘制 $\ln\theta_j$ 与 $j$ 的关系图（如 \ref{fig:C_1}）计算阻尼比 $\zeta \approx 0.06212$ 和固有角频率 $\omega_0 \approx 4.09453$。
+第三组实验同样可分为两次，均在 4 档阻尼下让摆盘自由振动。第一次起摆连续测 12 个幅度，绘制对数振幅 $\ln\theta_j$ 与振动次数 $j$ 的关系图（如 \ref{fig:C_1}）。同实验 \ref{sec:1} 类似，12 个数据点大致呈线性分布，可用最小二乘法拟合直线，并计算阻尼比 $\zeta \approx 0.06212$ 和固有角频率 $\omega_0 \approx 4.09453$。其中阻尼比明显大于实验 \ref{sec:1}，固有角频率相差不大，与物理规律相符。
 
 \begin{figure}[H]
 	\centering
@@ -347,7 +347,9 @@ td=1.5374999999999999
 	\label{fig:C_1}
 \end{figure}
 
-根据阻尼档 4 的数据，绘制幅频特性曲线（如 \ref{fig:C_2}）和相频特性曲线（如 \ref{fig:C_3}）。
+根据第二次实验数据，绘制描述振幅 $\theta_j$ 与频率比值 $\omega/\omega_0$ 关系的幅频特性曲线（见 \ref{fig:C_2}）和描述相位差 $\phi$ 与频率比值 $\omega/\omega_0$ 关系的相频特性曲线（见 \ref{fig:C_3}）。其中 \ref{fig:C_2} 中的数据点呈现以 $\omega/\omega_0 = 1$ 为中心的正态分布，\ref{fig:C_3} 中的数据点则呈现出相位差 $\phi$ 随频率比值 $\omega/\omega_0$ 单调增长的趋势，图像大致关于 $(\omega/\omega_0, \phi) = (1, 90^\circ)$ 中心对称。
+
+对比实验 \ref{sec:2} 和实验 \ref{lst:3} 的散点图，可以看出两者的幅频特性曲线均为关于 $\omega/\omega_0 = 1$ 对称的正态分布，但 \ref{fig:B_2} 中的数据点比 \ref{fig:C_2} 变化更加剧烈，这应该是由不同的 $\zeta$ 值引起的，物理意义为阻尼比较大时的振动更加稳定。相频特征曲线 \ref{fig:B_3} 和 \ref{fig:C_3} 也有类似的特点，\ref{fig:B_2} 中的数据点变化更加剧烈，整体曲线更加陡峭，说明阻尼较小时受迫振动对相位差更加敏感。
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.49\linewidth}
