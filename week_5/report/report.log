@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 12:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1420,9 +1420,6 @@ File: img/C_2.png Graphic file (type bmp)
 <img/C_2.png>
 File: img/C_3.png Graphic file (type bmp)
 <img/C_3.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [10]
 File: img/original_data_page_1.jpg Graphic file (type bmp)
 <img/original_data_page_1.jpg>
@@ -1439,7 +1436,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [11] [12] [13] (./report.aux)
+) [11]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+[12]
+
+LaTeX Warning: Text page 13 contains only floats.
+
+[13] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
