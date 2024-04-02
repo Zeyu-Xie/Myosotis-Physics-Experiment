@@ -217,7 +217,31 @@ $\alpha_m$ 是摇杆摆幅，$R$ 是 \ref{fig:3} 中连杆 E 与摇杆 M 的接�
 
 \subsubsection{用最小二乘法计算阻尼比 $\zeta$ 及其不确定度 $\Delta_\zeta$}
 
+\ref{eq:3} 两边取对数，有
+
+\begin{equation}
+	\ln\theta = \ln[\theta_i\cos(\sqrt{\omega_0^2-\beta^2}t+\phi_i)] - \beta t \label{eq:14}
+\end{equation}
+
+假设从 $t_0$ 时刻开始连续测量摆轮的最大摆幅，则测量第 $j$ 个摆幅 $\theta_j$ 对应的时间 $t=t_0+jT_d$，于是有
+
+\begin{equation}
+	\ln\theta_j = \ln[\theta_i\cos(\sqrt{\omega_0^2-\beta^2 t_0}+\phi_i)] - \beta(t_0+jT_d) \label{eq:15}
+\end{equation}
+
+由此可知，$\ln\theta_j$ 与 $j$ 成线性关系，设因变量为 $y=\ln\theta_j$，自变量为 $x=j$，用最小二乘法拟合直线 $y=a+bx$，则斜率
+
+\begin{equation}
+	b = -\beta T_d = -\beta\frac{2\pi}{\sqrt{w_0^2-\beta^2}} = -\frac{2\pi}{\sqrt{\zeta^{-2}-1}} \label{eq:16}
+\end{equation}
+
+另外，$b$ 的不确定度 $\Delta b = t_{0.95}(\gamma)S_b$，其中 $\gamma=n-2$ 为自由度，标准偏差 $S_b = b\sqrt{\frac{r^{-2}-1}{n-2}}$，$r$ 为相关系数（不考虑仪器角度测量的系统误差），由此可以得到系统的阻尼比 $\zeta \pm \Delta_\zeta$。
+
 \subsubsection{通过阻尼比 $\zeta$ 和振动周期 $T_d$ 计算固有角频率 $\omega_0\pm\Delta_\zeta$}
+
+通过 $\omega_0 = \frac{2\pi}{T_d\sqrt{1-\zeta^2}}$ 可得到系统的固有角频率。在阻尼比很小的情况下，可以用阻尼振动角频率代替 $\omega_0$。不确定度的估算中，时间测量的仪器误差限取 $\Delta_\text{仪} = \text{读数} \times 10^{-5} + 0.001$（单位：s）。
+
+应该指出，原理上我们认为弹簧的劲度系数 $k$ 为常数，与摆角无关，因此 $\omega_0$ 为常数。实际上由于制造工艺和材料性能的影响，$k$ 随着角度的改变有微小的变化，使不同振幅时系统的固有频率有微小的变化，有时需要考虑这些变化，如共振点附近受迫振动相频特性与 $\omega_0$ 的关系，这时需要测出固有角频率与不同振幅的相关数据，减少实验值与理论值的偏差。
 
 \subsection{测量较强阻尼条件下的阻尼比$\zeta$}
 
