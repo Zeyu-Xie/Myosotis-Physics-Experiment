@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  1 APR 2024 16:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 01:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,16 +1192,18 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
+File: img/instruments.jpg Graphic file (type bmp)
+<img/instruments.jpg>
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1209,56 +1211,70 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1]
-Overfull \hbox (26.77516pt too wide) detected at line 50
+File: img/1.jpg Graphic file (type bmp)
+<img/1.jpg>
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+File: img/2.jpg Graphic file (type bmp)
+<img/2.jpg>
+File: img/3.jpg Graphic file (type bmp)
+<img/3.jpg>
+ [2]
+Overfull \hbox (26.77516pt too wide) detected at line 99
 [][][]\OML/lmm/m/it/12 ^^R \OT1/lmr/m/n/12 = [] []
  []
 
-[2] [3]
+
+LaTeX Warning: Reference `3' on page 3 undefined on input line 101.
+
+[3] [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 152.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 152.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 152.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 152.
+(hyperref)                removing `\zeta' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 152.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 152.
+(hyperref)                removing `math shift' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 152.
+(hyperref)                removing `\omega' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
+(hyperref)                removing `subscript' on input line 201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 158.
+(hyperref)                removing `math shift' on input line 201.
+
+[5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
+(hyperref)                removing `\zeta' on input line 207.
 
-[4] (./report.bbl
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+(./report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [5] (./report.aux)
+) [6] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1267,16 +1283,19 @@ L3 programming layer <2022/07/14>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D0F69CF035045B17EC796C470C857FD2;3152.
+(rerunfilecheck)             Checksum: CBDF781937B5298EC0E296A708CE255A;2421.
  ) 
 Here is how much of TeX's memory you used:
- 25700 strings out of 474878
- 525822 string characters out of 5762516
- 1941627 words of memory out of 5000000
- 47152 multiletter control sequences out of 15000+600000
- 613050 words of font info for 98 fonts, out of 8000000 for 9000
+ 25778 strings out of 474878
+ 526304 string characters out of 5762516
+ 1939627 words of memory out of 5000000
+ 47223 multiletter control sequences out of 15000+600000
+ 618843 words of font info for 101 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 101i,9n,145p,1005b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,145p,1005b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./report.pdf (5 pages).
+Output written on ./report.pdf (6 pages).
