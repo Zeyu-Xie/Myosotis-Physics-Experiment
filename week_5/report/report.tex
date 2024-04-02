@@ -2,7 +2,6 @@
 \usepackage[UTF8]{ctex}
 \usepackage{preamble}
 
-
 \title{阻尼振动和受迫振动物理实验}
 
 \begin{document}
@@ -253,6 +252,115 @@ $\alpha_m$ 是摇杆摆幅，$R$ 是 \ref{fig:3} 中连杆 E 与摇杆 M 的接�
 
 \section{数据处理及结果}
 
+所有实验数据均记录于 \ref{sec:original_data}。
+
+\subsection{第一组实验}
+
+选择 0 档阻尼下摆盘自由振动，一次起摆连续测 50 个幅度，再次起摆连续测 5 个 $10T_d$。
+
+绘制 $\ln\theta_j$ 与 $j$ 的关系图，如 \ref{fig:ln_theta_j} 所示。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/A.png}
+	\caption{0 档阻尼下 $\ln\theta_j$ 与 $j$ 的关系}
+	\label{fig:ln_theta_j}
+\end{figure}
+
+通过最小二乘法拟合直线，得到如 \ref{lst:1} 的输出结果。斜率 $b \approx -0.01007$，由公式 \ref{eq:16} 可得阻尼比 $\zeta \approx 0.00160$。记录 5 次 $10T_d$ 的时间，计算平均值 $10T_d \approx 15.38216$ s，由此可得平均振动周期 $T_d \approx 1.53822$ s，固有角频率 $\omega_0 \approx 4.08472$ rad/s。
+
+\begin{lstlisting}[caption={第一组实验数据处理结果}, label={lst:1}]
+	y = a + bx
+	a=4.772264731257109, b=-0.01007121882703009
+	\zeta=0.0016028822001904336
+	td=1.53822
+	\omega_0=4.084716996706236
+	\beta=0.0065473201668357515
+	\tau=152.73424462504772
+\end{lstlisting}
+
+\subsection{第二组实验}
+
+第二组实验的数据输出如下
+
+\begin{lstlisting}[label={lst:2}, caption={第二组实验数据处理结果}]
+	y = a + bx
+	a=4.3490939658348635, b=-0.16992775069555735
+	\zeta=0.027034956298399453
+	td=1.5408333333333335
+	\omega_0=4.0792748869888324
+	\beta=0.11028301829890146
+	\tau=9.067579174245008
+\end{lstlisting}
+
+选择 2 档阻尼下摆盘自由振动，一次起摆连续测 12 个幅度，绘制 $\ln\theta_j$ 与 $j$ 的关系图（如 \ref{fig:B_1}）计算阻尼比 $\zeta \approx 0.02703$ 和固有角频率 $\omega_0 \approx 4.07927$。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/B_1.png}
+	\caption{2 档阻尼下 $\ln\theta_j$ 与 $j$ 的关系}
+	\label{fig:B_1}
+\end{figure}
+
+根据阻尼档 2 的数据，绘制幅频特性曲线（如 \ref{fig:B_2}）和相频特性曲线（如 \ref{fig:B_3}）。
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{0.49\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/B_2.png}
+		\caption{2 档阻尼下幅频特性曲线}
+		\label{fig:B_2}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.49\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/B_3.png}
+		\caption{2 档阻尼下相频特性曲线}
+		\label{fig:B_3}
+	\end{subfigure}
+\end{figure}
+
+\subsection{第三组实验}
+
+第三组实验的数据输出如下
+
+\begin{lstlisting}[label={lst:3}, caption={第三组实验数据处理结果}]
+	y = a + bx
+	a=4.752038708069851, b=-0.39109800808349326
+	\zeta=0.0621249471761529
+	td=1.5374999999999999
+	\omega_0=4.094533673616203
+	\beta=0.2543726881843859
+	\tau=3.931239659169442
+\end{lstlisting}
+
+选择 4 档阻尼下摆盘自由振动，一次起摆连续测 12 个幅度，绘制 $\ln\theta_j$ 与 $j$ 的关系图（如 \ref{fig:C_1}）计算阻尼比 $\zeta \approx 0.06212$ 和固有角频率 $\omega_0 \approx 4.09453$。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/C_1.png}
+	\caption{4 档阻尼下 $\ln\theta_j$ 与 $j$ 的关系}
+	\label{fig:C_1}
+\end{figure}
+
+根据阻尼档 4 的数据，绘制幅频特性曲线（如 \ref{fig:C_2}）和相频特性曲线（如 \ref{fig:C_3}）。
+
+\begin{figure}[H]
+	\begin{subfigure}[b]{0.49\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/C_2.png}
+		\caption{4 档阻尼下幅频特性曲线}
+		\label{fig:C_2}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.49\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{img/C_3.png}
+		\caption{4 档阻尼下相频特性曲线}
+		\label{fig:C_3}
+	\end{subfigure}
+\end{figure}
+
 \section{实验小结}
 
 \begin{enumerate}
@@ -263,7 +371,7 @@ $\alpha_m$ 是摇杆摆幅，$R$ 是 \ref{fig:3} 中连杆 E 与摇杆 M 的接�
 	\item 几种阻尼状态下的幅频特性曲线和相频特性曲线要画在同一张坐标纸上，以便进行比较。
 \end{enumerate}
 
-\section{原始数据记录}
+\section{原始数据记录}\label{sec:original_data}
 
 \begin{figure}[h]
 	\centering
