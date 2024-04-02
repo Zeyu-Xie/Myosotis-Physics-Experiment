@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 13:16
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  2 APR 2024 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,7 +1401,7 @@ File: img/A.png Graphic file (type bmp)
 <img/A.png>
 [7]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 272.
+nput line 276.
  [8]
 File: img/B_1.png Graphic file (type bmp)
 <img/B_1.png>
@@ -1409,14 +1409,22 @@ File: img/B_2.png Graphic file (type bmp)
 <img/B_2.png>
 File: img/B_3.png Graphic file (type bmp)
 <img/B_3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [9]
 File: img/C_1.png Graphic file (type bmp)
 <img/C_1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: img/C_2.png Graphic file (type bmp)
 <img/C_2.png>
 File: img/C_3.png Graphic file (type bmp)
 <img/C_3.png>
- [10]
+
+[11]
 File: img/original_data_page_1.jpg Graphic file (type bmp)
 <img/original_data_page_1.jpg>
 
@@ -1432,15 +1440,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [11]
-
-LaTeX Warning: Text page 12 contains only floats.
-
-[12]
+) [12]
 
 LaTeX Warning: Text page 13 contains only floats.
 
-[13] (./report.aux)
+[13]
+
+LaTeX Warning: Text page 14 contains only floats.
+
+[14] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1453,12 +1461,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 0AFB1A52658DA6E75DABFEC2FEA9A9F8;3364.
  ) 
 Here is how much of TeX's memory you used:
- 27198 strings out of 474878
- 549641 string characters out of 5762516
+ 27200 strings out of 474878
+ 549660 string characters out of 5762516
  1941627 words of memory out of 5000000
- 48616 multiletter control sequences out of 15000+600000
+ 48618 multiletter control sequences out of 15000+600000
  623129 words of font info for 105 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
  101i,13n,145p,1005b,1799s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./report.pdf (13 pages).
+Output written on ./report.pdf (14 pages).

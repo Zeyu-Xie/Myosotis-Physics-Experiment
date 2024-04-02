@@ -254,7 +254,7 @@ $\alpha_m$ 是摇杆摆幅，$R$ 是 \ref{fig:3} 中连杆 E 与摇杆 M 的接�
 
 所有实验数据均记录于 \ref{sec:original_data}，以下数据处理过程均基于此数据。
 
-\subsection{第一组实验}
+\subsection{第一组实验}\label{sec:1}
 
 选择 0 档阻尼下摆盘自由振动，总共进行两次实验，第一次起摆连续测 50 个幅度，再次起摆连续测 5 个 $10T_d$，两次数据分别记录。
 
@@ -267,7 +267,11 @@ $\alpha_m$ 是摇杆摆幅，$R$ 是 \ref{fig:3} 中连杆 E 与摇杆 M 的接�
 	\label{fig:ln_theta_j}
 \end{figure}
 
-通过最小二乘法拟合直线，得到如 \ref{lst:1} 的输出结果。斜率 $b \approx -0.01007$，由公式 \ref{eq:16} 可得阻尼比 $\zeta \approx 0.00160$。记录 5 次 $10T_d$ 的时间，计算平均值 $10T_d \approx 15.38216$ s，由此可得平均振动周期 $T_d \approx 1.53822$ s，固有角频率 $\omega_0 \approx 4.08472$ rad/s。
+拟合直线斜率 $b \approx -0.01007$，进而可由公式 \ref{eq:16} 算得阻尼比 $\zeta \approx 0.00160$。
+
+据第二组数据，记录 5 次 $10T_d$ 的时间，计算平均值 $10\overline{T_d} \approx 15.38216$ s，得平均振动周期 $T_d \approx 1.53822$ s，固有角频率 $\omega_0 \approx 4.08472$ rad/s。
+
+以上两组数据使用 python 计算得到，程序运行过程中部分输出列出如下
 
 \begin{lstlisting}[caption={第一组实验数据处理结果}, label={lst:1}]
 y = a + bx
@@ -281,7 +285,7 @@ td=1.53822
 
 \subsection{第二组实验}
 
-第二组实验的数据输出如下
+第二组实验的 python 程序运行部分输出如下
 
 \begin{lstlisting}[label={lst:2}, caption={第二组实验数据处理结果}]
 y = a + bx
@@ -293,7 +297,7 @@ td=1.5408333333333335
 \tau=9.067579174245008
 \end{lstlisting}
 
-选择 2 档阻尼下摆盘自由振动，一次起摆连续测 12 个幅度，绘制 $\ln\theta_j$ 与 $j$ 的关系图（如 \ref{fig:B_1}）计算阻尼比 $\zeta \approx 0.02703$ 和固有角频率 $\omega_0 \approx 4.07927$。
+第二组实验同样可分为两次，均在 2 档阻尼下让摆盘自由振动。第一次起摆连续测 12 个幅度，绘制对数振幅 $\ln\theta_j$ 与振动次数 $j$ 的关系图（如 \ref{fig:B_1}）。同实验 \ref{sec:1} 类似，12 个数据点大致呈线性分布，可用最小二乘法拟合直线，并计算阻尼比 $\zeta \approx 0.02703$ 和固有角频率 $\omega_0 \approx 4.07927$。其中阻尼比明显大于实验 \ref{sec:1}，固有角频率相差不大，与物理规律相符。
 
 \begin{figure}[H]
 	\centering
@@ -302,7 +306,7 @@ td=1.5408333333333335
 	\label{fig:B_1}
 \end{figure}
 
-根据阻尼档 2 的数据，绘制幅频特性曲线（如 \ref{fig:B_2}）和相频特性曲线（如 \ref{fig:B_3}）。
+据第二次实验数据，绘制描述振幅 $\theta_j$ 与频率比值 $\omega/\omega_0$ 关系的幅频特性曲线（见 \ref{fig:B_2}）和描述相位差 $\phi$ 与频率比值 $\omega/\omega_0$ 关系的相频特性曲线（见 \ref{fig:B_3}）。其中 \ref{fig:B_2} 中的数据点呈现以 $\omega/\omega_0 = 1$ 为中心的正态分布，\ref{fig:B_3} 中的数据点则呈现出相位差 $\phi$ 随频率比值 $\omega/\omega_0$ 单调增长的趋势，图像大致关于 $(\omega/\omega_0, \phi) = (1, 90^\circ)$ 中心对称。
 
 \begin{figure}[H]
 	\begin{subfigure}[b]{0.49\linewidth}
