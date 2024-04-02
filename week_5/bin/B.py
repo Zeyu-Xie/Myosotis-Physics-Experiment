@@ -13,6 +13,9 @@ sheet1 = data["sheet1"]["data"]
 sheet1_1 = [0] * len(sheet1)
 sheet1_2 = [0] * len(sheet1)
 sheet2 = data["sheet2"]["data"]
+sheet2_1 = [0] * len(sheet2)
+sheet2_2 = [0] * len(sheet2)
+sheet2_3 = [0] * len(sheet2)
 ln_sheet1_1 = [0] * len(sheet1)
 for i in range(len(sheet1)):
     sheet1_1[i] = sheet1[i]["magnitude"]
@@ -31,6 +34,11 @@ omega_0 = 2*math.pi/(td*math.sqrt(1-zeta*zeta))
 beta = zeta * omega_0
 tau = 1 / beta
 
+for i in range(len(sheet2)):
+    sheet2_1[i] = 2*math.pi / sheet2[i]["period"]/omega_0
+    sheet2_2[i] = sheet2[i]["magnitude"]
+    sheet2_3[i] = sheet2[i]["difference_average"]
+
 print("y = a + bx")
 print(f"a={a}, b={b}")
 print(f"\\zeta={zeta}")
@@ -45,4 +53,13 @@ plt.ylabel('ln(\\theta_j)')
 plt.plot(range(0, 12), y, '.', label='Data')
 plt.plot(range(0, 12), y_fit, 'r-', label='Fitted Line')
 plt.legend()
-plt.savefig(os.path.join(os.path.dirname(__file__), "B.png"))
+plt.savefig(os.path.join(os.path.dirname(__file__), "B_1.png"))
+plt.close()
+
+plt.title('Curve 2')
+plt.xlabel('\omega / \omega_0')
+plt.ylabel('\\theta_m')
+plt.plot(sheet2_1, sheet2_2, '.', label='Data')
+plt.legend()
+plt.savefig(os.path.join(os.path.dirname(__file__), "B_2.png"))
+plt.close()
