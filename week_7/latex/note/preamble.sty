@@ -1,0 +1,159 @@
+\usepackage[foot]{amsaddr}
+
+\usepackage[margin=1.2in, heightrounded]{geometry}
+\usepackage[export]{adjustbox}
+\usepackage{verbatim}
+\usepackage{xcolor}
+% \usepackage{hyperref}
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=magenta,
+%     filecolor=magenta,      
+%     urlcolor=magenta,
+%     citecolor=magenta}
+% \urlstyle{same}
+
+%\documentclass[12pt,a4paper]{amsart}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{lmodern}
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+
+\usepackage{amssymb}
+\usepackage{bbm}
+\usepackage{mathtools}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{algpseudocode,algorithm,algorithmicx}  
+\algrenewcommand\algorithmicrequire{\textbf{Precondition:}}  
+\algrenewcommand\algorithmicensure{\textbf{Postcondition:}}
+\usepackage{subcaption}
+\usepackage{euscript}
+\usepackage{stackengine}
+
+% Prevent itemized lists from running into the left margin inside theorems and proofs
+\usepackage{enumitem}
+\setlist[enumerate]{leftmargin=0pt}
+\setenumerate[0]{label=(\alph*),leftmargin=19pt}
+\setenumerate[2]{leftmargin=19pt,labelwidth=15pt,align=left}
+%\setlist[itemize]{leftmargin=-11pt}
+
+\usepackage{amsthm}
+\newtheorem{definition}{Definition}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+\newtheorem{properties}{Property set}
+\newtheorem{assumption}{Assumption}
+%\newtheorem{proposition}{Proposition}
+\newtheorem*{assumption*}{Assumption}
+\newtheorem*{example*}{Example}
+\theoremstyle{remark}
+\newtheorem*{remark*}{Remark}
+%\theoremstyle{definition}
+%\newtheorem*{definition*}{Definition}
+
+\newcommand{\one}{\mathbbm{1}}
+\newcommand{\E}{\mathbb{E}}
+% ???
+\newcommand{\Pro}{\mathbb{P}}
+\newcommand{\indep}{\perp \!\!\! \perp}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\dds}[1]{\frac{d #1}{d s}}
+\newcommand{\dd}[2]{\frac{d #1}{d #2}}
+\newcommand{\pp}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\ppp}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}}
+\newcommand{\ip}[1]{\left\langle #1 \right\rangle} %for inner product
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\mat}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cS}{\EuScript{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cX}{\mathfrak{X}}
+\DeclareMathOperator{\spanof}{span}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\diverg}{div}
+\renewcommand{\div}{\diverg}
+\DeclareMathOperator{\cor}{Cor}
+\renewcommand{\phi}{\varphi}
+\newcommand{\om}{\omega}
+\newcommand{\wcw}{\wedge\cdots\wedge}
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\te}{{\tilde e}}
+\newcommand{\ue}{{\underline e}}
+\newcommand{\ueps}{{\underline \varepsilon}}
+\newcommand{\tv}{{\tilde v}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\teps}{{\tilde \varepsilon}}
+\newcommand{\ta}{{\tilde \alpha}}
+\newcommand{\tnu}{{\tilde \nu}}
+\newcommand{\sump}{\sideset{}{'}\sum}
+\newcommand{\al}{{\alpha}}
+\renewcommand{\th}{{\tilde h}}
+\newcommand{\tf}{{\tilde f}}
+\newcommand{\tecu}{{\tilde e^{cu}}}
+\newcommand{\tsig}{{\tilde \sigma}}
+\newcommand{\tL}{{\tilde L}}
+\newcommand{\tT}{{\tilde T}}
+\newcommand{\cN}{{\mathcal{N}}}
+\newcommand{\slot}{{(\cdot)}}
+\renewcommand{\div}{\textnormal{div}}
+\renewcommand{\span}{\textnormal{span}}
+\newcommand{\iid}{{\,\overset{\mathrm{iid}}{\sim}\,}}
+\newcommand{\weaklimr}{\mathrel{\ensurestackMath{\stackon[1pt]{\rightharpoonup}{\scriptstyle\ast}}}}
+\newcommand{\weakliml}{\mathrel{\ensurestackMath{\stackon[1pt]{\leftharpoonup}{\scriptstyle\ast}}}}
+
+\usepackage[allbordercolors=yellow]{hyperref}
+\usepackage{thmtools}
+\usepackage{thm-restate}
+\usepackage[noabbrev]{cleveref}
+%\declaretheorem[name=Theorem,numberwithin=section]{thm}
+\declaretheorem{thm}
+\declaretheorem[sibling=thm]{theorem,lemma,proposition}
+
+\usepackage[mathlines]{lineno}
+\usepackage{ulem}
+
+\newcommand{\lil}[1]{\linelabel{#1}} % line label
+\newcommand{\lr}[1]{line~\lineref{#1}} % line reference
+
+%% with markup and line number
+
+%\nolinenumbers
+%\linenumbers
+
+\newcommand{\re}[1]{\textcolor{red}{#1}}
+\newcommand{\ree}[1]{\textcolor{blue}{#1}}
+\newcommand{\reee}[1]{\textcolor{teal}{#1}}
+\newcommand{\nax}[1]{\textcolor{magenta}{#1}}
+\newcommand\reout{\bgroup\markoverwith{\textcolor{red}{\rule[0.5ex]{2pt}{0.6pt}}}\ULon}
+\newcommand\reeout{\bgroup\markoverwith{\textcolor{blue}{\rule[0.5ex]{2pt}{0.6pt}}}\ULon}
+\newcommand\reeeout{\bgroup\markoverwith{\textcolor{teal}{\rule[0.5ex]{2pt}{0.6pt}}}\ULon}
+\newcommand\naxout{\bgroup\markoverwith{\textcolor{magenta}{\rule[0.5ex]{2pt}{0.6pt}}}\ULon}
+
+%% no markup
+%\newcommand{\re}[1]{\textcolor{black}{#1}}
+%\newcommand{\ree}[1]{\textcolor{black}{#1}}
+%\newcommand{\nax}[1]{\textcolor{black}{#1}}
+%\newcommand\reout[1]{}
+%\newcommand\reeout[1]{}
+%\newcommand\naxout[1]{}
+
+\author{Zeyu Xie$^{1}$}
+\address{$^1$ Department of Mathematics, Tsinghua University, Beijing, China.}
+\email{xie.zeyu20@gmail.com}
+\date{\today}
+ 
+\setcounter{tocdepth}{3}

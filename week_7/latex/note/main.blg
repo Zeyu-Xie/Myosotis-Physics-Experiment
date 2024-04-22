@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ./main.aux
+The style file: unsrt.bst
+Database file #1: ./library.bib
+Warning--entry type for "Abu-Zurayk2013" isn't style-file defined
+--line 18 of file ./library.bib
+Warning--empty journal in Baseski2014
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            466 strings with 4141 characters,
+and the built_in function-call counts, 579 in all, are:
+= -- 41
+> -- 36
+< -- 0
++ -- 13
+- -- 10
+* -- 35
+:= -- 103
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 22
+empty$ -- 56
+format.name$ -- 10
+if$ -- 123
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 17
+num.names$ -- 3
+pop$ -- 13
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 11
+stack$ -- 0
+substring$ -- 21
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 4
+width$ -- 4
+write$ -- 30
+(There were 2 warnings)

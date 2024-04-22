@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{Abu-Zurayk2013}
+Mohammad Abu-Zurayk and Joël Brezillon.
+\newblock Development of the adjoint approach for aeroelastic wing
+  optimization, 2013.
+
+\bibitem{Gerritsma2008}
+Marc Gerritsma, Peter Vos, and Jan Bart Van~Der Steen.
+\newblock Time-dependent polynomial chaos.
+\newblock {\em AIP Conference Proceedings}, 1048:221--224, 2008.
+
+\bibitem{Baseski2014}
+Igor Baseski, Dorin Drignei, Zissimos~P Mourelatos, Monica Majcher, and
+  Rochester Mi.
+\newblock A new metamodeling approach for time - dependent reliability of
+  dynamic systems with random parameters excited by input random processes.
+\newblock 2014.
+
+\end{thebibliography}
