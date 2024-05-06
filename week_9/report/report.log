@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  6 MAY 2024 03:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.30)  6 MAY 2024 04:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,64 +1061,89 @@ Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count375
 \l__xeCJK_listings_flag_int=\count376
 ))
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `chart' multiply defined.
+
+
+LaTeX Warning: Label `chart@cref' multiply defined.
+
+
+LaTeX Warning: Label `chart' multiply defined.
+
+
+LaTeX Warning: Label `chart@cref' multiply defined.
+
+
+LaTeX Warning: Label `chart' multiply defined.
+
+
+LaTeX Warning: Label `chart@cref' multiply defined.
+
+
+LaTeX Warning: Label `chart' multiply defined.
+
+
+LaTeX Warning: Label `chart@cref' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
 .
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
 .
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-7.
+8.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-7.
+8.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 7.
+(Font)              <10> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 7.
+(Font)              <7> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 7.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(Font)              <5> on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1157,12 +1182,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 7.
-Package microtype Info: Applying patch `item' on input line 7.
-Package microtype Info: Applying patch `toc' on input line 7.
-Package microtype Info: Applying patch `eqnum' on input line 7.
-Package microtype Info: Applying patch `footnote' on input line 7.
-Package microtype Info: Applying patch `verbatim' on input line 7.
+LaTeX Info: Redefining \microtypecontext on input line 8.
+Package microtype Info: Applying patch `item' on input line 8.
+Package microtype Info: Applying patch `toc' on input line 8.
+Package microtype Info: Applying patch `eqnum' on input line 8.
+Package microtype Info: Applying patch `footnote' on input line 8.
+Package microtype Info: Applying patch `verbatim' on input line 8.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1180,7 +1205,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 8.
 
 (./report.out) (./report.out)
 \@outlinefile=\write3
@@ -1194,14 +1219,14 @@ Package microtype Info: Character `029' is missing
 
 LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
 (Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
-10.
+11.
 
 
 Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
 (fontspec)                Script "CJK".
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-0.
+1.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1224,18 +1249,16 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-File: img/instruments.jpg Graphic file (type bmp)
-<img/instruments.jpg>
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1243,212 +1266,30 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1]
-Overfull \hbox (5.24869pt too wide) in paragraph at lines 62--63
-[]\TU/FandolSong-Regular(0)/m/n/12 式 中 $\OML/lmm/m/it/12 ^^R[]$ \TU/FandolSong-
-Regular(0)/m/n/12 为 摆 幅，| $\OML/lmm/m/it/12 '[]$ \TU/FandolSong-Regular(0)/m/n/
-12 为 初 始 相 位。|  由 上 式 可 知，|  阻 尼 振 动 角 频 率 为 $\OML/lmm/m/it/12 ![] \OT1/lmr/m/n
-/12 = []$\TU/FandolSong-Regular(0)/m/n/12 ，|
- []
-
-File: img/1.jpg Graphic file (type bmp)
-<img/1.jpg>
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-File: img/2.jpg Graphic file (type bmp)
-<img/2.jpg>
-File: img/3.jpg Graphic file (type bmp)
-<img/3.jpg>
-[2] [3]
-File: img/graph.jpg Graphic file (type bmp)
-<img/graph.jpg>
- [4]
-Overfull \hbox (9.82549pt too wide) in paragraph at lines 181--194
- [][] 
- []
-
-[5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 210.
+(hyperref)                removing `math shift' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 210.
+(hyperref)                removing `\rho' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 210.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 210.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 210.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 210.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 210.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\omega' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 241.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 241.
-
-[6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 247.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\zeta' on input line 247.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 247.
-
-File: img/A.png Graphic file (type bmp)
-<img/A.png>
-[7]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 276.
- [8]
-File: img/B_1.png Graphic file (type bmp)
-<img/B_1.png>
-File: img/B_2.png Graphic file (type bmp)
-<img/B_2.png>
-File: img/B_3.png Graphic file (type bmp)
-<img/B_3.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-File: img/C_1.png Graphic file (type bmp)
-<img/C_1.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-File: img/C_2.png Graphic file (type bmp)
-<img/C_2.png>
-File: img/C_3.png Graphic file (type bmp)
-<img/C_3.png>
-
-[11]
-File: img/original_data_page_1.jpg Graphic file (type bmp)
-<img/original_data_page_1.jpg>
+(hyperref)                removing `math shift' on input line 94.
+
+[2]
+File: img/original_data.png Graphic file (type bmp)
+<img/original_data.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: img/original_data_page_2.jpg Graphic file (type bmp)
-<img/original_data_page_2.jpg>
+[3]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Text page 4 contains only floats.
 
-(./report.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [12]
-
-LaTeX Warning: Text page 13 contains only floats.
-
-[13]
-
-LaTeX Warning: Text page 14 contains only floats.
-
-[14] (./report.aux)
+[4] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1457,16 +1298,19 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 0AFB1A52658DA6E75DABFEC2FEA9A9F8;3364.
+(rerunfilecheck)             Checksum: 78BE820730A52DB65D1DB1ECC2CE64DE;1576.
  ) 
 Here is how much of TeX's memory you used:
- 27200 strings out of 474878
- 549660 string characters out of 5762516
- 1941627 words of memory out of 5000000
- 48618 multiletter control sequences out of 15000+600000
- 623129 words of font info for 105 fonts, out of 8000000 for 9000
+ 26838 strings out of 474878
+ 537704 string characters out of 5762516
+ 1930627 words of memory out of 5000000
+ 48278 multiletter control sequences out of 15000+600000
+ 611340 words of font info for 98 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 101i,13n,145p,1005b,1799s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,145p,1005b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./report.pdf (14 pages).
+Output written on ./report.pdf (4 pages).
